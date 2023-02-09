@@ -1,5 +1,4 @@
 import React from "react";
-import html2canvas from "html2canvas";
 import './SearchFinder.css';
 import n1 from '../images/n1.png';
 import n2 from '../images/n2.png';
@@ -91,7 +90,6 @@ const SearchFinder = () => {
 
    document.addEventListener('DOMContentLoaded', tick);
 })();
-
 
 
 

@@ -1,9 +1,14 @@
 /* Path: style.css */
 
 
+
 .page-body {
   margin: 0 15px 0 15px;
-  display: inline-block;
+  display: contents;
+  text-align: center;
+  font-family: 'Bungee';
+  font-size: 1.2em;
+  text-align: center;
 }
 
 .pg-tp {
