@@ -24,8 +24,8 @@ const NavBar = () => {
                         <div className="dropdown-content"> 
                           <Link to="/blogs">Blog</Link>
                           <Link to="/">anketler</Link>
-                          <Link to="/">SearchFinder</Link>
-                          <Link to="/">To-Do</Link>
+                          <Link to="/searchfinder">SearchFinder</Link>
+                          <Link to="/soruoyunu">SoruOyunu</Link>
                           <Link to="/">yorumlar</Link>
                         </div>
                       </div>                      

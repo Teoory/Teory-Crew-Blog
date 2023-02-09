@@ -11,6 +11,8 @@ import BlogListPage from './pages/BlogListPage';
 import BlogPage from './pages/BlogPage';
 import LoginPage from './pages/LoginPage';
 import CreateAccountPage from './pages/CreateAccountPage';
+// import SoruOyunu from './pages/SoruOyunu';
+import SearchFinder from './pages/SearchFinder';
 document.title = "Teory^Crew";
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
                 <Route path="/register" element= {<CreateAccountPage/>} />
                 <Route path="/blogs" element= {<BlogListPage/>} />
                 <Route path="/blogs/:blogId" element= {<BlogPage/>} />
+                {/* <Route path='/soruoyunu' element= {<SoruOyunu/>} /> */}
+                <Route path='/searchfinder' element= {<SearchFinder/>} />
               </Routes>
             </div>
         </div>

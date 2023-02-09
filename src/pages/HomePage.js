@@ -9,7 +9,7 @@ const HomePage = () => {
         <div className="page-top">
           <div id='show_bg_2'></div>
           <div className="bottom-left">
-              <h1>Teory Crew'e Hoş Geldiniz!</h1>
+              <h1>Blog'a Hoş Geldiniz!</h1>
               <Link to="/" className="li-item"><i className="fa-brands fa-42-group"></i>DETAYLI BILGI →</Link>
           </div>
         </div>
