@@ -1,9 +1,4 @@
-*{
-    background-color: #686868;
-    max-height: 450px;
-    color: #fff;
-    font-family: system-ui, sans-serif;
-}
+
 #congrats {
     z-index: 99;
     height: 900px;

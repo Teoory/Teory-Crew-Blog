@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import React from "react";
 import './SearchFinder.css';
 import n1 from '../images/n1.png';
@@ -6,6 +7,7 @@ import n3 from '../images/n3.png';
 import n4 from '../images/n4.png';
 
 const SearchFinder = () => {
+       
     return (
         <div className="page-body" id="to_save">
         <div className="pg-tp">
@@ -66,6 +68,9 @@ const SearchFinder = () => {
     )
 }
 
+    
+
+
 (function() {
     var start = new Date;
     start.setHours(23, 59, 59); // 11:59pm
@@ -90,7 +95,6 @@ const SearchFinder = () => {
 
    document.addEventListener('DOMContentLoaded', tick);
 })();
-
 
 
 
@@ -230,5 +234,4 @@ function showSlides(n) {
   }
 
 }
-
 export default SearchFinder;

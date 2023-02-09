@@ -3,15 +3,15 @@ import './SoruOyunu.css';
 
 const SoruOyunu = () => {
     return (
-    <div class="page">
-        <h1 class="game-name">Soru Oyunu</h1>
+    <div className="page">
+        <h1 className="game-name">Soru Oyunu</h1>
         <p id="question"></p>
         <form>
-            <input type="radio" class="inputs" name="answer" value="a"/> <span id="option-a"></span><br/>
-            <input type="radio" class="inputs" name="answer" value="b"/> <span id="option-b"></span><br/>
-            <input type="radio" class="inputs" name="answer" value="c"/> <span id="option-c"></span><br/>
-            <input type="radio" class="inputs" name="answer" value="d"/> <span id="option-d"></span><br/>
-            <button type="button" onclick="checkAnswer()" class="kontrol-et">Kontrol et</button>
+            <input type="radio" className="inputs" name="answer" value="a"/> <span id="option-a"></span><br/>
+            <input type="radio" className="inputs" name="answer" value="b"/> <span id="option-b"></span><br/>
+            <input type="radio" className="inputs" name="answer" value="c"/> <span id="option-c"></span><br/>
+            <input type="radio" className="inputs" name="answer" value="d"/> <span id="option-d"></span><br/>
+            <button type="button" onClick="checkAnswer()" className="kontrol-et">Kontrol et</button>
         </form>
         <p id="result"></p>
         <p id="score"></p>
@@ -186,73 +186,6 @@ function checkAnswer() {
             text.style.top = "50%";
             text.style.left = "50%";
             text.style.transform = "translate(-50%, -50%)";
-                
-            var colorIndex = 0;
-            var colors = ["#DA0463", "#F5A623", "#4CAF50", "#03A9F4"];
-            setInterval(changeColor, 500);
-                
-            function changeColor() {
-                text.style.color = colors[colorIndex];
-                colorIndex = (colorIndex + 1) % colors.length;
-            }
-
-            var canvas = document.getElementById("congrats");
-            var ctx = canvas.getContext("2d");
-            ctx.canvas.width = window.innerWidth;
-            ctx.canvas.height = window.innerHeight;
-            // draw fireworks on canvas
-            // document.getElementById("question").innerHTML = "Tebrikler!";
-            // document.getElementById("question").style.color = "#DA0463";
-            // document.getElementById("question").style.fontWeight = "900";
-            // document.getElementById("question").style.fontSize = "50px";
-            // document.getElementById("question").style.display = "block";
-            // document.getElementById("question").style.textAlign = "center";
-            
-
-            
-            setupFireworks()
-
-            function random(min, max) {
-              min = Math.ceil(min);
-              max = Math.floor(max);
-              return Math.floor(Math.random() * (max - min + 1)) + min;
-            }
-
-            function setupFireworks() {
-              let particles = [];
-              const startTime = new Date().getTime();
-              const startX = random(5, canvas.width);
-              const startY = random(5, canvas.height);
-              const colour = '#'+Math.random().toString(16).substr(2,6);
-              const time = random(500,2000);
-              let alpha = 1;
-              drawFireworks();
-            
-              function drawFireworks() {
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-                let particle = {x: startX, y: startY, xVel: random(-5,5), yVel: random(-5,5)}
-                particles.push(particle);
-
-                for(let p = 0; p < particles.length; p++){
-                  particle = particles[p];
-                  ctx.fillStyle = colour;
-                  ctx.globalAlpha = alpha;
-                  ctx.fillRect(particle.x, particle.y, 10, 10);
-                  particle.x += particle.xVel;
-                  particle.y += particle.yVel;
-                }
-
-                if(new Date().getTime() - startTime < time){
-                  if(new Date().getTime() - startTime < time + 100){
-                    alpha = 1.0;
-                  }
-                  window.requestAnimationFrame(drawFireworks);  
-                } else{
-                  setupFireworks();
-                }
-              }
-            }
-
         }
         
         

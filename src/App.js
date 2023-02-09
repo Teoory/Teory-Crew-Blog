@@ -13,6 +13,7 @@ import LoginPage from './pages/LoginPage';
 import CreateAccountPage from './pages/CreateAccountPage';
 // import SoruOyunu from './pages/SoruOyunu';
 import SearchFinder from './pages/SearchFinder';
+import AnketOyun from './pages/AnketOyun';
 document.title = "Teory^Crew";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
                 <Route path="/blogs/:blogId" element= {<BlogPage/>} />
                 {/* <Route path='/soruoyunu' element= {<SoruOyunu/>} /> */}
                 <Route path='/searchfinder' element= {<SearchFinder/>} />
+                <Route path='/anketoyun' element= {<AnketOyun/>} />
               </Routes>
             </div>
         </div>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './NavBar.css';
 import useUser from './hooks/useUser';
 import logo from './images/Logo4.png'; // with import
+import SearchFinder from './pages/SearchFinder';
 
 const NavBar = () => {
   const { user, isLoading } = useUser();
@@ -23,8 +24,8 @@ const NavBar = () => {
                         <Link className="li-item" id="dropdown"> icerikler </Link>
                         <div className="dropdown-content"> 
                           <Link to="/blogs">Blog</Link>
-                          <Link to="/">anketler</Link>
-                          <Link to="/searchfinder">SearchFinder</Link>
+                          <Link to="/anketoyun">anketler</Link>
+                          <Link to="/searchfinder" onClick={refreshPage}>SearchFinder</Link>
                           <Link to="/soruoyunu">SoruOyunu</Link>
                           <Link to="/">yorumlar</Link>
                         </div>
@@ -47,4 +48,7 @@ const NavBar = () => {
     )
 }
 
+function refreshPage(){ 
+  window.reload(); 
+}
 export default NavBar;
