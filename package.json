@@ -1,8 +1,7 @@
 {
   "name": "teory-blog",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
-  "proxy": "http://localhost:8000/",
   "homepage": "https://benimsitem.live/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.1",
