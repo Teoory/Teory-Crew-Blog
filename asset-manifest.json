@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/TeoCrew-gh-pages/static/css/main.1e4269af.css",
+    "main.js": "/TeoCrew-gh-pages/static/js/main.b4c39c2a.js",
+    "static/js/787.a361b86b.chunk.js": "/TeoCrew-gh-pages/static/js/787.a361b86b.chunk.js",
+    "static/media/n1.png": "/TeoCrew-gh-pages/static/media/n1.353e49630d7d2f7e57f8.png",
+    "static/media/n2.png": "/TeoCrew-gh-pages/static/media/n2.86973be9cec8558e77df.png",
+    "static/media/fa-solid-900.ttf": "/TeoCrew-gh-pages/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/n3.png": "/TeoCrew-gh-pages/static/media/n3.4cdbd1e081ac4c31632d.png",
+    "static/media/n4.png": "/TeoCrew-gh-pages/static/media/n4.9034459c8556de380c6b.png",
+    "static/media/fa-brands-400.ttf": "/TeoCrew-gh-pages/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/TeoCrew-gh-pages/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/TeoCrew-gh-pages/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/TeoCrew-gh-pages/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/Logo4.png": "/TeoCrew-gh-pages/static/media/Logo4.0a760565d778ce0b689c.png",
+    "static/media/fa-regular-400.woff2": "/TeoCrew-gh-pages/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/TeoCrew-gh-pages/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/TeoCrew-gh-pages/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "static/media/page-top.svg": "/TeoCrew-gh-pages/static/media/page-top.8bb7efc18fed2d19c484.svg",
+    "index.html": "/TeoCrew-gh-pages/index.html",
+    "main.1e4269af.css.map": "/TeoCrew-gh-pages/static/css/main.1e4269af.css.map",
+    "main.b4c39c2a.js.map": "/TeoCrew-gh-pages/static/js/main.b4c39c2a.js.map",
+    "787.a361b86b.chunk.js.map": "/TeoCrew-gh-pages/static/js/787.a361b86b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e4269af.css",
+    "static/js/main.b4c39c2a.js"
+  ]
+}
