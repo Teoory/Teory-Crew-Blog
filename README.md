@@ -27,4 +27,3 @@ I am Berkay ^Teory^ Koksal, a Frontend Web Developer from Turkey.<br>I know HTML
 ---
 [![](https://visitcount.itsvg.in/api?id=Teoory&icon=2&color=9)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
